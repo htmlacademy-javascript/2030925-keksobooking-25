@@ -8,13 +8,14 @@ function getRandom (min, max) {
 }
 getRandom (1,11);
 
-function getRandomFloat (min,max) {
+function getRandomFloat (min,max,commas = 3) {
   const random = min + Math.random() * (max + 1 - min);
   if (min >=0 && max >= min) {
-    return random.toFixed(3);
+    return random.toFixed(commas);
   } else {
     throw new SyntaxError ('Ваше число меньше минимального!');
   }
 }
 getRandomFloat(1,11);
+
 
