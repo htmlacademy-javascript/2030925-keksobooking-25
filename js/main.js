@@ -13,7 +13,7 @@ function getRandomFloat (min,max,commas = 3) {
   if (min >=0 && max >= min) {
     return random.toFixed(commas) * 1;
   } else {
-    throw new SyntaxError ('Ваше число меньше минимального!');
+    throw 'Ваше число меньше минимального!';
   }
 }
 getRandomFloat(1,11);
