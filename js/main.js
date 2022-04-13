@@ -47,7 +47,7 @@ const PHOTOS = [
   'https://assets.htmlacademy.ru/content/intensive/javascript-1/keksobooking/claire-rendall-b6kAwr1i0Iw.jpg',
 ];
 
-const location = {
+const LOCATION = {
   lat: getRandomFloat(35.65000, 35.70000),
   lng: getRandomFloat(139.70000, 139.80000),
 };
@@ -74,7 +74,7 @@ function createOffer(number) {
   return {
     author: newAuthor(number),
     title: 'Объявление',
-    address: `${location.lat},${location.lng}`,
+    address: `${LOCATION.lat},${LOCATION.lng}`,
     price: getRandom(20000,1500000),
     type: getRandomArrayElement(TYPE),
     rooms: getRandom(1,5),
