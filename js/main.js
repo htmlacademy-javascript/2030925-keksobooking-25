@@ -1,12 +1,5 @@
-import {getRandom} from './util.js';
-import { getRandomArrayElement } from './util.js';
-import { getNewArray } from './util.js';
-import { newAuthor } from './util.js';
-import {TYPE} from './data.js';
-import {CHECKIN} from './data.js';
-import {FEATURES} from './data.js';
-import {PHOTOS} from './data.js';
-import {LOCATION} from './data.js';
+import {getRandom,getRandomArrayElement,getNewArray,newAuthor} from './util.js';
+import {TYPE,CHECKIN,FEATURES,PHOTOS,LOCATION} from './data.js';
 
 
 export function createOffer(number) {

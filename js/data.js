@@ -43,12 +43,5 @@ for (let i=1; i<=anotherOffers; i++) {
   offers.push (createOffer(i));
 }
 
-export {anotherOffers};
-export {TYPE};
-export {CHECKIN};
-export {FEATURES};
-export {PHOTOS};
-export {LOCATION};
-export {offers};
-
+export {anotherOffers,TYPE,CHECKIN,FEATURES,PHOTOS,LOCATION,offers};
 

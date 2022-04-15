@@ -36,8 +36,4 @@ function getNewArray (arrays) {
   return newArray;
 }
 
-export {getRandom};
-export {getRandomFloat};
-export {getRandomArrayElement};
-export {newAuthor};
-export {getNewArray};
+export {getRandom,getRandomFloat,getRandomArrayElement,newAuthor,getNewArray};
